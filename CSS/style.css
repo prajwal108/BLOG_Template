@@ -85,7 +85,12 @@
     font-size: 2rem;
     position: relative;
 }
-
+.nav-right form{
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav-right button img {
     position: absolute;
     top: -5%;
@@ -170,7 +175,8 @@ button:active {
 }
 
 .article-Img img {
-    width: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 input [type=text] {
@@ -191,6 +197,8 @@ input [type=text] {
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
+    width: 100vw;
+    bottom:0;
 }
 
 .footer span {
