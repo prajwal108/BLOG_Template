@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+:root  {
+    
+    --bg: rgb(124, 0, 173);
+    --bg2:rgb(237, 231, 189);
+    --font1:'Roboto', sans-serif;
+    --font2:'Ubuntu', sans-serif;
+}
+.font1{
+    font-family:var(--font1)
+};
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.m-top{
+    margin-top: 20px;
+}
