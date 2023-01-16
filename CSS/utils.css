@@ -1,26 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
-:root  {
-    
-    --bg: rgb(124, 0, 173);
-    --bg2:rgb(237, 231, 189);
-    --font1:'Roboto', sans-serif;
-    --font2:'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --bg: rgb(102, 49, 124);
+    --bg2: rgb(237, 231, 189);
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Ubuntu', sans-serif;
+    --font3: 'Open Sans', sans-serif;
+    --font4: 'Poppins', sans-serif;
 }
-.font1{
-    font-family:var(--font1)
-};
-.font2{
+
+.font1 {
+    font-family: var(--font1)
+}
+
+;
+
+.font2 {
     font-family: var(--font2);
 }
-.max-width-1{
+
+.max-width-1 {
     max-width: 80vw;
 }
-.max-width-2{
+
+.max-width-2 {
     max-width: 60vw;
 }
-.m-auto{
+
+.m-auto {
     margin: auto;
 }
-.m-top{
+
+.m-top {
     margin-top: 20px;
+}
+
+.m-auto2 {
+    margin: 1% auto;
 }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloG</title>
+    <link rel="stylesheet" href="CSS\style.css">
+    <link rel="stylesheet" href="CSS\utils.css">
+    <link rel="stylesheet" href="CSS\mobile.css">
+    <link rel="stylesheet" href="CSS\contact.css">
+</head>
+
+<body>
+    <nav class="navigation max-width-1">
+        <span><a href="/index.html">BloG</a></span>
+        <div class="nav-left">
+            <ul>
+                <li><a href="/index.html">
+                        <div>Home</div>
+                    </a></li>
+                <li><a href="#">
+                        <div>About</div>
+                    </a></li>
+                <li><a href="/contact.html">
+                        <div>Contact</div>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="search.html" name="query" method="get" id="navform"><input type="text" class="form-input"
+                    placeholder="Search Article">
+                <button><img src="img\icons8-search-100.png" alt="" width="35px" height="35px"></button>
+            </form>
+        </div>
+        <button id="nav-hidden"><img src="img\icons.png" alt="" width="25px" height="25px"></button>
+    </nav>
+    <div class="content m-auto max-width-1 contact">
+        <div id="contact-form">
+            <div class="m-auto2">
+                <h2><b>Contact Form</b></h2>
+            </div>
+            <form action="submit">
+                <div class="form-box">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name Here">
+                </div>
+                <div class="form-box">
+                    <label for="mobile">Mobile No.</label>
+                    <input type="tel" id="mobile" placeholder="Enter Mobile Number" pattern="[0-9]{10}">
+                </div>
+                <div class="form-box">
+                    <label for="email">Mail ID</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Mail ID">
+                </div>
+                <div class="form-box">
+                    <label for="message">Message</label>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Enter Message"></textarea>
+                </div>
+                <div class="form-box">
+                    <input type="button" value="Submit" id="submit-form">
+                </div>
+            </form>
+        </div>
+        <div id="thank-display">
+            <h2>Thank You for Contacting Us!</h2>
+            <h3>We will get in touch with you within 24 Hours</h3>
+        </div>
+    </div>
+    <div class="footer m-top">
+        <span>Copyright &copy BloG.com </span>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

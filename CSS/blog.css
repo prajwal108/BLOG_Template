@@ -1,0 +1,31 @@
+.blog-content {
+    font: var(--font4);
+    padding: 20px;
+}
+
+.blog-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 107px;
+    float: right;
+    cursor: pointer;
+}
+
+.blog-header {
+    display: flex;
+}
+
+.header-left {
+    width: 75%;
+}
+
+.blog-body {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.blog-image img:hover {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}

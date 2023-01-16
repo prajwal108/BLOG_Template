@@ -8,23 +8,33 @@
     <title>BloG</title>
     <link rel="stylesheet" href="CSS\style.css">
     <link rel="stylesheet" href="CSS\utils.css">
+    <link rel="stylesheet" href="CSS\mobile.css">
     <link rel="shortcut icon" href="img\blog.jpg">
 </head>
 
 <body>
     <nav class="navigation max-width-1">
-        <div class="nav-left"><span>BloG</span>
+        <span><a href="/index.html">BloG</a></span>
+        <div class="nav-left">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/index.html">
+                        <div>Home</div>
+                    </a></li>
+                <li><a href="#">
+                        <div>About</div>
+                    </a></li>
+                <li><a href="/contact.html">
+                        <div>Contact</div>
+                    </a></li>
             </ul>
         </div>
         <div class="nav-right">
-            <form action="search.html" name="query" method="get"><input type="text" class="form-input" placeholder="Search Article">
+            <form action="search.html" name="query" method="get" id="navform"><input type="text" class="form-input"
+                    placeholder="Search Article">
                 <button><img src="img\icons8-search-100.png" alt="" width="35px" height="35px"></button>
-            </form> 
+            </form>
         </div>
+        <button id="nav-hidden"><img src="img\icons.png" alt="" width="25px" height="25px"></button>
     </nav>
     <div class="articles max-width-2 m-auto m-top font2">
         <h2> Search results for <b>Keyword</b></h2>
@@ -51,5 +61,7 @@
     <div class="footer m-top">
         <span>Copyright &copy BloG.com </span>
     </div>
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
