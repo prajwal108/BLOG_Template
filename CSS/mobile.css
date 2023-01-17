@@ -94,20 +94,22 @@
 
     #sortbox {
         position: absolute;
-        right: -19%;
-        top: 10px;
+        right: -38px;
+        top: 2px;
     }
 
     #sortbox b {
         flex-direction: column;
     }
 
-    div.article>div:nth-child(2)>span:nth-child(6) {
+    .article div:nth-child(2)>span:nth-child(6) {
         display: none;
     }
 
     .article {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .article div a img {

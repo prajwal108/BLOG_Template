@@ -1,6 +1,8 @@
 .blog-content {
     font: var(--font4);
     padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .blog-image img {
